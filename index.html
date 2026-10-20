@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hollow Knight - Aventura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="game-container">
+        <h1>HOLLOW KNIGHT</h1>
+        <p class="subtitle">A jornada pelo reino esquecido</p>
+
+        <div class="status">
+            <span>VIDA: <span id="vida">5</span> ♥</span>
+            <span>ALMAS: <span id="pontos">0</span></span>
+        </div>
+
+        <canvas id="game" width="900" height="500"></canvas>
+
+        <div class="controls">
+            <p><b>A / D</b> ou <b>← / →</b> — Movimentar</p>
+            <p><b>ESPAÇO</b> — Pular</p>
+            <p><b>J</b> — Atacar</p>
+        </div>
+
+        <button id="reiniciar">RECOMEÇAR AVENTURA</button>
+        <p id="mensagem">Explore o reino e derrote os inimigos!</p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
